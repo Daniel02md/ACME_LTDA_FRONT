@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 225, 225);
+}
+
+.principal{
+    display: flex;
+    flex-direction:row-reverse;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo{
+    width: 5vw;
+    height: 5vh;
+    padding: 1.5vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.entrada{
+    margin-bottom:2vh ;
+    margin-top: 0.5vh;
+    width: 15vw;
+    height: 3vh;
+    border-radius: 0.5vw;
+    background-color: rgb(172, 172, 172);
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+.card-cadastro{
+    margin: 5vw;
+    padding: 5vw;
+    background-color: rgb(208, 208, 208);
+    border-radius: 2vw;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.label{
+    color: rgb(69, 69, 69);
+}
+
+.enviar{
+    border: none;
+    border-radius: 2vw;
+    height: 5vh;
+    background-color: rgb(251, 47, 47);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+    font-weight: 700;
+}
+.enviar:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+#titulo, #nome-titulo{
+    font-weight: 780;
+    font-size: 1.8vw;
+    color: brown;
+}

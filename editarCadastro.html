@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="img/acme.webp"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./static/editarCadastro.css">
+
+    <title>ACME LTDA</title>
+</head>
+<body>
+    <main>
+        <img id="logo" src="./img/acme.webp">
+
+        <div class="principal">
+            <div class="cadastro">
+                <h1 id="titulo">Editar cadastro de funcionário <span id="nome-titulo">nome</span></h1>
+    
+                <div class="card-cadastro">
+                    <form id="formulario-cadastro">
+                        <label class="label" for="nome">Nome</label>
+                        <input class="entrada" type="text" id="nome" name="nome">
+    
+                        <label class="label" for="CPF">CPF</label>
+                        <input class="entrada" type="text" id="CPF" name="cpf">
+    
+                       <label class="label" for="cargo">Cargo</label>
+                       <input class="entrada" type="text" id="cargo" name="cargo">
+    
+                       <label class="label" for="salario">Salário</label>
+                       <input class="entrada" type="text" id="salario" name="salario">
+    
+                       <input type="submit" value="Enviar" class="enviar" id="enviar">
+                    </form>
+                </div>
+
+            </div>
+    </main>
+
+    <script src="./static/editarCadastro.js"></script>
+</body>
+</html>
